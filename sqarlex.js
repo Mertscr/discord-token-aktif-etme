@@ -13,13 +13,7 @@ const sqarlex7 = new Discord.Client();
 // Aktif edilecek token sayısına göre arttırabilirsiniz. Eğer yukarıyı arttırırsanız aynı şekilde aşşağıyıda arttırmanız gerekir.
 // Tokenleri tırnakların -> "" arasına yaz.
 
-sqarlex1.login("sqarlex token 1");
-sqarlex2.login("sqarlex token 2");
-sqarlex3.login("sqarlex token 3");
-sqarlex4.login("sqarlex token 4");
-sqarlex5.login("sqarlex token 5");
-sqarlex6.login("sqarlex token 6");
-sqarlex7.login("sqarlex token 7");
+sqarlex1.login(""MTE3NDc4MTY1Nzg3MDUxNjMyNg.GEtGPh.1sqRwZepzsUgRilJW7_M81PD7EqaFt5-S17604"");
 
 
 /* 
@@ -31,7 +25,7 @@ WATCHING = İZLİYOR
 STREAMING = YAYINDA*/
   
 sqarlex1.on('ready', ()=>{
-  sqarlex1.channels.get('ses kanal id').join()
+  sqarlex1.channels.get('1174786650249887827').join()
   console.log(`[Aktif] - ${sqarlex1.user.tag} 1 numaralı hesap aktif.`) 
   sqarlex1.user.setActivity('Spotify', {"type": "LISTENING"});
 });
